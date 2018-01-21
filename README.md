@@ -22,10 +22,7 @@ Contains 3 notebook-based tutorials:
 	* Notebook Deepomics VAE Frey Faces: example of training a variational autoencoder to fit the distribution of the data.  
 
 
-
-## Dependencies
-
-#### python dependencies:
+### python dependencies:
 	- tensorflow (release > 1.0, preferrably r1.4)
 	- numpy
 	- scipy
@@ -36,15 +33,3 @@ Contains 3 notebook-based tutorials:
 	- h5py
 	- six
 	- pandas  
-
-
-#### dependencies for preprocessing:
-	- bedtools 
-	- wget    (if requiring automatic downloads of files)
-	- meme    (if requiring di-nucleotide shuffle)
-	- Piranha (if calling peaks)
-	- samtools
-	- RNAplfold (if predicting RNA secondary structure, apart of Vienna package)
-
-
-#
