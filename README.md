@@ -1,25 +1,25 @@
-# Tutorials tensorflow
+# Tutorials Tensorflow
+
+Contains 4 notebook-based tutorials:
+
+	* Notebook Tensorflow Basics: overview of graphs, variables, ops, placeholders, sessions
+
+	* Notebook Tensorflow NN: overview of neural network API
+
+	* Notebook CNN TF: walk through of building, training, testing, and evaluating a CNN for a supervised classificaiton task
+
+	* Notebook CNN RNAcompete: walk through of building, training, testing, and evaluating a CNN for a supervised regression task
+
+
+# Tutorials Deepomics
 
 Contains 3 notebook-based tutorials:
 
-	* Notebook Tensorflow basics: overview of graphs, variables, ops, placeholders, sessions
+	* Notebook Deepomics CNN TF: example of how to use deepomics to train, test, and evaluate a CNN for a supervised classification task
 
-	* Notebook Tensorflow neural networks: overview of neural network components
+	* Notebook Deepomics CNN RNAcompete: example of how to use deepomics to train, test, and evaluate a CNN for a supervised regression task
 
-	* Notebook CNN TF analysis: walk through of building, training, testing, and evaluating a CNN for a supervised classificaiton task
-
-	* Notebook CNN RNAcompete analysis: walk through of building, training, testing, and evaluating a CNN for a supervised regression task
-
-
-# Tutorials deepomics
-
-Contains 3 notebook-based tutorials:
-
-	* Notebook Deepomics CNN TF analysis: example of how to use deepomics to train, test, and evaluate a CNN for a supervised classification task
-
-	* Notebook Deepomics CNN RNAcompete analysis: example of how to use deepomics to train, test, and evaluate a CNN for a supervised regression task
-	
-	* Notebook Deepomics VAE example Frey Faces: example of training a variational autoencoder to fit the distribution of the data.  
+	* Notebook Deepomics VAE Frey Faces: example of training a variational autoencoder to fit the distribution of the data.  
 
 
 
