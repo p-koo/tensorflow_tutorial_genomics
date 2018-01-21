@@ -1,0 +1,6 @@
+[submodule "tutorials_deepomics/deepomics"]
+	path = tutorials_deepomics/deepomics
+	url = https://github.com/p-koo/deepomics
+[submodule "data/raw_data/wrangler"]
+	path = data/raw_data/wrangler
+	url = https://github.com/p-koo/wrangler
