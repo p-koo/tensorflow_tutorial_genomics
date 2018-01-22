@@ -22,7 +22,7 @@ Contains 3 notebook-based tutorials:
 	* Notebook Deepomics VAE Frey Faces: example of training a variational autoencoder to fit the distribution of the data.  
 
 
-### python dependencies:
+### Python dependencies:
 	- tensorflow (release > 1.0, preferrably r1.4)
 	- numpy
 	- scipy
