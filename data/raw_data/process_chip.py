@@ -57,9 +57,7 @@ one_hot = np.vstack([pos_one_hot, neg_one_hot])
 labels = np.vstack([np.ones((len(pos_one_hot), 1)), np.zeros((len(neg_one_hot), 1))])
 
 # split dataset into training set, cross-validation set, and test set
-train, valid, test, _ = wrangler.munge.split_dataset(one_hot, labels,
-													 valid_frac=0.1,
-													 test_frac=0.2)
+train, valid, test, _ = wrangler.munge.split_dataset(one_hot, labels, valid_frac=0.1, test_frac=0.2)
 
 # save dataset to hdf5 file
 print('saving dataset')
