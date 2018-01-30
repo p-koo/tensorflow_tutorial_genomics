@@ -69,13 +69,16 @@ $ easy_install -U pip
 # deactivate the environment (Note, that the tensorflow prefix should be gone after running this command)
 (tensorflow)$  deactivate
 
+#----------------------------------------------------------------------
+# to activating tensorflow 
+
 # to activate the tensorflow environment
 $ source ~/tensorflow/bin/activate
 
 #----------------------------------------------------------------------
-# if you want to get rid of tensorflow altogether, you simply have to remove the virtualenv directory
-
 # uninstalling tensorflow
+
+# if you want to get rid of tensorflow altogether, you simply have to remove the virtualenv directory
 $ rm -r ~/tensorflow
 
 
