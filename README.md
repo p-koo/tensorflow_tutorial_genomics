@@ -1,3 +1,5 @@
+This repository contains some notebooks that cover introductory material for TensorFlow.
+
 # Tutorials Tensorflow
 
 Contains 4 notebook-based tutorials:
@@ -28,8 +30,13 @@ Contains 3 notebook-based tutorials:
 	- scipy
 	- matplotlib
 	- jupyter-notebook
-	- PILLOW
+	- pillow
 	- sklearn
 	- h5py
 	- six
-	- pandas  
+	- pandas
+
+	To install, please consult install_tensorflow_virtualenv.txt
+	
+
+

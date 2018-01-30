@@ -1,2 +1,0 @@
-model_checkpoint_path: "frey_best.ckpt"
-all_model_checkpoint_paths: "frey_best.ckpt"
