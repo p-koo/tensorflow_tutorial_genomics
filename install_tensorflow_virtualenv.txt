@@ -18,12 +18,17 @@ $ source ./bin/activate
 # ensure pip > 8.1 is installed
 (tensorflow)$ easy_install -U pip
 
-# install tensorflow
-(tensorflow)$ pip install --upgrade tensorflow
-
 # install other python modules that we will need
 (tensorflow)$ pip install --upgrade pip
 (tensorflow)$ pip install --upgrade numpy scipy ipython pillow six h5py pandas sklearn matplotlib
+
+# install tensorflow (2 ways):
+# first try this way:
+(tensorflow)$ pip install --upgrade tensorflow
+
+# if tensorflow installation fails, then try this way:
+(tensorflow)$ pip install --upgrade \
+ https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.5.0-py2-none-any.whl
 
 #----------------------------------------------------------------------
 # instructions for Python 3.4 
@@ -38,13 +43,18 @@ $ source ./bin/activate
 # ensure pip > 8.1 is installed
 $ easy_install -U pip
 
-# install tensorflow
-(tensorflow)$ pip3 install --upgrade tensorflow
-
 # install other python modules that we will need
-
 (tensorflow)$ pip3 install --upgrade pip 
 (tensorflow)$ pip3 install --upgrade numpy scipy ipython pillow six h5py pandas sklearn matplotlib
+
+# install tensorflow (2 ways):
+# first try this way:
+(tensorflow)$ pip3 install --upgrade tensorflow
+
+# if this doesn't work, then try this way:
+(tensorflow)$ pip3 install --upgrade \
+ https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.5.0-py2-none-any.whl
+
 
 #----------------------------------------------------------------------
 # get the tutorial for this group meeting
@@ -59,13 +69,13 @@ $ easy_install -U pip
 # deactivate the environment (Note, that the tensorflow prefix should be gone after running this command)
 (tensorflow)$  deactivate
 
-# to activate the environment
+# to activate the tensorflow environment
 $ source ~/tensorflow/bin/activate
 
 #----------------------------------------------------------------------
 # if you want to get rid of tensorflow altogether, you simply have to remove the virtualenv directory
 
 # uninstalling tensorflow
-$rm -r ~/tensorflow
+$ rm -r ~/tensorflow
 
 
