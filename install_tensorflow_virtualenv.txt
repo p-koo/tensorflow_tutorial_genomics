@@ -1,3 +1,6 @@
+##########################################################################
+Native pip installation
+##########################################################################
 
 # figure out which version you have
 $ python --version
@@ -20,7 +23,7 @@ $ source ./bin/activate
 
 # install other python modules that we will need
 (tensorflow)$ pip install --upgrade pip
-(tensorflow)$ pip install --upgrade numpy scipy ipython pillow six h5py pandas sklearn matplotlib
+(tensorflow)$ pip install --upgrade numpy scipy ipython pillow six h5py pandas sklearn matplotlib jupyter
 
 # install tensorflow (2 ways):
 # first try this way:
@@ -45,7 +48,7 @@ $ easy_install -U pip
 
 # install other python modules that we will need
 (tensorflow)$ pip3 install --upgrade pip 
-(tensorflow)$ pip3 install --upgrade numpy scipy ipython pillow six h5py pandas sklearn matplotlib
+(tensorflow)$ pip3 install --upgrade numpy scipy ipython pillow six h5py pandas sklearn matplotlib jupyter
 
 # install tensorflow (2 ways):
 # first try this way:
@@ -55,13 +58,6 @@ $ easy_install -U pip
 (tensorflow)$ pip3 install --upgrade \
  https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.5.0-py2-none-any.whl
 
-
-#----------------------------------------------------------------------
-# get the tutorial for this group meeting
-
-# clone the tutorial from github
-(tensorflow)$  cd ..
-(tensorflow)$  git clone --recursive https://github.com/p-koo/tensorflow_tutorial_genomics
 
 #----------------------------------------------------------------------
 # deactivating tensorflow when you're done
@@ -82,3 +78,34 @@ $ source ~/tensorflow/bin/activate
 $ rm -r ~/tensorflow
 
 
+##########################################################################
+# Instructions for Conda
+##########################################################################
+
+# Anaconda installation is community supported, not officially supported
+
+# create a tensorflow environment
+$ conda create -n tensorflow pip python=2.7 # or python=3.3, etc
+
+# activate conda environment (Note that the a prefix (tensorflow) should be present)
+$ source activate tensorflow
+
+# install tensorflow 
+(tensorflow)$ pip install --ignore-installed --upgrade \
+ https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.5.0-py2-none-any.whl
+
+# use conda, pip3, or pip to install the other dependencies
+(tensorflow)$ conda update conda
+(tensorflow)$ conda install numpy scipy ipython pillow six h5py pandas sklearn matplotlib jupyter
+
+# to deactivate the conda environment
+$ source deactivate tensorflow
+
+
+##########################################################################
+# get the tutorial for this group meeting
+##########################################################################
+
+# clone the tutorial from github
+(tensorflow)$  cd ..
+(tensorflow)$  git clone --recursive https://github.com/p-koo/tensorflow_tutorial_genomics
