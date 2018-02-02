@@ -95,8 +95,7 @@ $ source activate tensorflow
  https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.5.0-py2-none-any.whl
 
 # use conda, pip3, or pip to install the other dependencies
-(tensorflow)$ conda update conda
-(tensorflow)$ conda install numpy scipy ipython pillow six h5py pandas sklearn matplotlib jupyter
+(tensorflow)$ conda install numpy scipy ipython pillow six h5py pandas scikit-learn matplotlib jupyter
 
 # to deactivate the conda environment
 $ source deactivate tensorflow
